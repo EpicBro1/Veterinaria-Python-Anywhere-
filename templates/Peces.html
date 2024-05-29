@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body id="B-Pez">
+
+{% extends "layout.html" %}
+
+{% block title %}Inicio - Mi Sitio Web{% endblock %}
+
+{% block content %}
+<section class="main" >
+    
+    <section class="articles">
+            <article>
+                <h2> Peces  </h2>
+                <p>Los peces, con su gracia y colorido, nos transportan a un mundo tranquilo
+                    y sereno dentro de nuestros acuarios y estanques. Ya sean peces 
+                    tropicales vibrantes, peces de agua fría o exóticos habitantes marinos, 
+                    cada uno de ellos agrega belleza y tranquilidad a nuestros hogares.
+                    <br></br>
+                    En nuestra clínica, entendemos la importancia de mantener un ambiente 
+                    acuático saludable y equilibrado para la salud y el bienestar de tus peces. 
+                    Nuestro equipo de expertos en peces está aquí para ofrecer una variedad de 
+                    servicios, desde exámenes de salud acuática hasta tratamientos para enfermedades 
+                    y afecciones comunes en peces.
+                    <br>
+                    <img src="/static/IMG/Pez.jpg" width="200px">
+               </p>
+           </article>
+            <article>
+               <h2>Importante</h2>
+                <p>Ya sea que necesites ayuda con el diagnóstico y tratamiento de enfermedades 
+                    acuáticas, o simplemente estés buscando consejos sobre cómo mejorar la salud 
+                    de tus peces, estamos aquí para ayudarte en cada paso del camino.
+                    <br></br>
+                    Gracias por confiar en nosotros con la salud y el bienestar de tus amigos 
+                    acuáticos. ¡Es un honor ser parte de su mundo submarino y ayudar a mantenerlos
+                     felices y saludables!</p>
+            
+            </article>
+    </section>  
+    </section> 
+    <aside>
+        <img src="/static/IMG/precaucion.webp" width="80px" height="80px">
+        <h3> Avisos:</h3>
+        <p> Todas las citas deberan hacerse con al 
+            <br>
+            menos un dia de anticipacion
+            <br>      
+        </p>
+          
+    </aside>
+{% endblock %}
+    
+</body>
+</html>

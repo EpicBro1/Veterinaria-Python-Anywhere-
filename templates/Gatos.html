@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body id="B-Gato">
+
+{% extends "layout.html" %}
+
+{% block title %}Inicio - Mi Sitio Web{% endblock %}
+
+{% block content %}
+<section class="main" >
+    
+    <section class="articles">
+            <article>
+                <h2> Gatos  </h2>
+                <p>Los gatos, con su gracia y misterio, se han ganado un lugar especial 
+                    en nuestros corazones como compañeros leales y entrañables. Desde 
+                    los traviesos gatitos hasta los apacibles gatos mayores, cada uno de 
+                    ellos tiene su propia forma de hacernos sonreír y sentirnos amados.
+                    <br></br>
+                    En nuestra clínica, entendemos que la salud y el bienestar de tu gato
+                    son una prioridad. Nuestro equipo de veterinarios y técnicos está 
+                    altamente capacitado para ofrecer una amplia gama de servicios 
+                    médicos, desde exámenes de salud preventivos hasta tratamientos 
+                    especializados para enfermedades y lesiones.
+                    <br>
+                    <img src="/static/IMG/Gato.jpg" width="200px">
+               </p>
+           </article>
+            <article>
+               <h2>Ademas...</h2>
+                <p>Brindamos atención médica excepcional, también nos esforzamos por ser 
+                    un recurso confiable para ti, brindándote consejos y orientación 
+                    sobre la nutrición adecuada, el comportamiento felino y la prevención
+                    de enfermedades.
+                    <br></br>
+                    Ya sea que tu gato necesite una revisión de rutina, vacunas actualizadas
+                    o atención médica especializada, estamos aquí para ayudarte en cada paso
+                    del camino. En nuestra clínica, tu gato es más que un paciente; es parte
+                    de nuestra familia felina.
+                    <br></br>
+                    Gracias por permitirnos ser parte de la vida de tu gato y por confiar en 
+                    nosotros con su salud y bienestar. ¡Estamos aquí para ayudarte a mantener 
+                    a tu gato feliz y saludable durante muchos años más!</p>
+            
+            </article>
+    </section>  
+    </section> 
+    <aside>
+        <img src="/static/IMG/precaucion.webp" width="80px" height="80px">
+        <h3> Avisos:</h3>
+        <p> Todas las citas deberan hacerse con al 
+            <br>
+            menos un dia de anticipacion
+            <br>      
+        </p>
+          
+    </aside>
+{% endblock %}
+
+</body>
+</html>

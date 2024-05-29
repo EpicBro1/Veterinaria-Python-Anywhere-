@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body id="B-index">
+
+{% extends "layout.html" %}
+
+{% block title %}Inicio - Mi Sitio Web{% endblock %}
+
+{% block content %}
+<section class="main" >
+    
+    <section class="articles">
+            <article>
+                <h2> PetsCop  </h2>
+                <p>Nuestra clínica veterinaria se encamina a buscar el bienestar y 
+                    la buena salud de las diferentes especies de animales que se 
+                    atienden, como: perros, gatos, cuyos, conejos, etc.
+                    <br></br>
+                    Todos nuestros médicos veterinarios cuentan con cédula profesional
+                    para ejercer esta profesión y siempre están capacitándose y 
+                    actualizándose en las diferentes áreas y servicios que tenemos a 
+                    su disposición: estética canina, ultrasonidos o hasta hospitalizaciones
+                    según sea el requerimiento específico de tu mascota.
+                    <img src="/static/IMG/Veterinaria.jpg" width="200px">
+               </p>
+           </article>
+            <article>
+               <h2>Atencion</h2>
+                <p>Si lo que necesitas es irte de vacaciones, nosotros podemos encargarnos 
+                    de mantener en excelentes condiciones a tu mascota por medio del servicio
+                     de pensión y hotel canino.
+                    <br></br>
+                    Pregunta por nuestras promociones y paquetes, te brindaremos un caluroso
+                    trato y una buena calidad de servicio.
+                    <br></br>
+                    Contamos con amplio estacionamiento para tu mayor comodidad.</p>
+            
+            </article>
+    </section>  
+    </section> 
+    <aside>
+        <img src="/static/IMG/precaucion.webp" width="80px" height="80px">
+        <h3> Avisos:</h3>
+        <p> Todas las citas deberan hacerse con al 
+            <br>
+            menos un dia de anticipacion
+            <br>      
+        </p>
+          
+    </aside>
+        
+      
+    <footer>
+        <p>Horario:
+            <br>
+            Lun - Vie09:00 - 19:00
+            <br>
+            Sábado 09:00 - 17:00
+            <br>
+            Domingo Cerrado
+            <br></br>
+            CALLE. SALTILLO 745 CHAPULTEPEC, SAN NICOLAS DE LOS GARZA, NUEVO LEON 66450
+            <br></br>
+            81-8352-3501
+            <br>
+            81-8253-6998
+    
+        </p>
+    </footer>
+{% endblock %}
+  
+</body>
+</html>

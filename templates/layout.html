@@ -1,0 +1,30 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Sitio Web{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <img src="/static/IMG/Encabezado.avif" width="100%" height="100px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index">Inicio</a></li>
+            <li><a href="perros">Perros</a></li>
+            <li><a href="gatos">Gatos</a></li>
+            <li><a href="peces">Peces</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    
+    <footer>
+        <p>© 2023 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>

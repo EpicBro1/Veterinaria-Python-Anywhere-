@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body id="B-perro">
+
+{% extends "layout.html" %}
+
+{% block title %}Inicio - Mi Sitio Web{% endblock %}
+
+{% block content %}
+<section class="main" >
+    
+    <section class="articles">
+            <article>
+                <h2> Perros  </h2>
+                <p>Los perros, con sus personalidades únicas y afectuosas, nos llenan
+                    de alegría y amor incondicional. Desde los animados cachorros 
+                    hasta los sabios perros mayores, cada uno de ellos trae consigo
+                    una historia especial y un vínculo indeleble con sus humanos.
+                    <br></br>
+                    En nuestra clínica, nos dedicamos a proporcionar la mejor atención
+                    posible para garantizar la salud y el bienestar de tus queridos 
+                    amigos de cuatro patas. Desde exámenes de rutina y vacunas hasta 
+                    tratamientos médicos y cuidados preventivos, nuestro equipo de 
+                    veterinarios y técnicos altamente calificados está aquí para 
+                    ofrecer atención compasiva y experta a tu mascota.
+                    <br>
+                    <img src="/static/IMG/Perro.jpg" width="200px">
+               </p>
+           </article>
+            <article>
+               <h2>Debes Saber...</h2>
+                <p>En nuestra clínica, nos enorgullecemos de crear un ambiente cálido 
+                    y acogedor donde tanto tú como tu perro se sientan cómodos y seguros.
+                    Valoramos la confianza que depositas en nosotros para cuidar de tu 
+                    amigo de cuatro patas, y nos comprometemos a brindarle la atención y 
+                    el cariño que se merece.
+                    <br></br>
+                    Ya sea que tu perro necesite un chequeo de rutina, atención médica 
+                    especializada o simplemente un poco de cariño extra, estamos aquí 
+                    para ayudarte en cada paso del camino. En nuestra clínica, tu perro 
+                    es más que un paciente; es parte de nuestra familia.
+                    <br></br>
+                    ¡Gracias por confiar en nosotros con la salud y el bienestar de 
+                    tu compañero canino!</p>
+            
+            </article>
+    </section>  
+    </section> 
+    <aside>
+        <img src="/static/IMG/precaucion.webp" width="80px" height="80px">
+        <h3> Avisos:</h3>
+        <p> Todas las citas deberan hacerse con al 
+            <br>
+            menos un dia de anticipacion
+            <br>      
+        </p>
+          
+    </aside>
+{% endblock %}
+    
+
+</body>
+</html>S
